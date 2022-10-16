@@ -51,7 +51,7 @@ body {
 	height: 800px;
 	background-image: url(hithere.png);
 	background-repeat: no-repeat;
-	background-size: 1280px 820px;
+	background-size: 100% 100%;
 }
 h1, h2, h3, h4, h5, h6 {
 	color: white;
