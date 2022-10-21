@@ -178,6 +178,16 @@ body {
     padding: 1em;
     border-radius: 25px;
 }
+.box19{
+    grid-column: 1/4;
+    grid-row: 20/21;
+    font-size: 50px;
+    text-align: center;
+    background: rgb(10, 88, 206);
+    padding: 1em;
+    border-radius: 25px;
+    font-family: Helvetica;
+}
 p{
     font-size: 20px;
 }
@@ -186,4 +196,19 @@ h3{
 }
 .color{
     color: rgb(255, 255, 255);
+}
+a:link {
+    color: rgb(0, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+  a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  a:active {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
 }
