@@ -197,18 +197,20 @@ h3{
 .color{
     color: rgb(255, 255, 255);
 }
-a:link {
-    color: rgb(0, 255, 255);
-    background-color: transparent;
+.button{
+    background-color: rgb(10, 88, 206);;
+    border: none;
+    padding: 10px 34px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 25px;
 }
-  a:hover {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
+a {
+    color:black
 }
-  a:active {
-    color: rgb(0, 0, 0);
-    background-color: transparent;
-    text-decoration: underline;
+.div_sticky{
+    position: fixed;
 }
